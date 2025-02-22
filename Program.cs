@@ -25,7 +25,7 @@ public static class Program
         }
         else
         {
-            Console.WriteLine("Input tidak boleh dengan huruf dan simbol");
+            Console.WriteLine("Input tidak boleh kosong");
         }
         if (int.TryParse(b, out int f))
         {
@@ -49,7 +49,7 @@ public static class Program
         }
         else
         {
-            Console.WriteLine("Input tidak boleh dengan angka dan simbol");
+            Console.WriteLine("Input tidak boleh kosong");
         }
     }
 }
